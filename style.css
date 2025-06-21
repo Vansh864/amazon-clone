@@ -7,6 +7,10 @@
     /*border box ka mtlb h ki jo bhi border ya padding set krenge wo uske height aur width mein hi set ho jayega usse bhar nai jayega*/
 }
 
+header {
+    width: 100%;
+}
+
 .navbar {
     height: 60px;
     background-color: #0f1111;
@@ -14,11 +18,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 100vw;
 }
 
 .nav-logo {
-    width: 100px;
-    height: 50px;
+    width: 10%;
+    height: 58px;
 }
 
 .border {
@@ -30,8 +35,8 @@
 }
 
 .logo {
-    width: 100px;
-    height: 50px;
+    width: 100%;
+    height: 58px;
     background-image: url("amazon_logo.png");
     background-size: cover;
 }
@@ -39,12 +44,18 @@
 .nav-add {
     display: flex;
     flex-wrap: wrap;
+    width: 7%;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
 }
 
 .add-first {
     color: #cccccc;
     font-size: 0.85rem;
-    margin-left: 15px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15%;
 }
 
 .india {
@@ -58,11 +69,15 @@
 .add-second {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .nav-search {
     display: flex;
     justify-content: flex-end;
+    width: 43%;
 }
 
 .nav-search:hover {
@@ -120,6 +135,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 7px;
+    width: 10%;
 }
 
 .arrow {
@@ -128,7 +144,7 @@
 }
 
 .accounts {
-    width: 160px;
+    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,6 +162,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 10%;
 }
 
 .nav-cart-icon {
@@ -169,6 +186,7 @@
     align-items: center;
     color:  white;
     height: 40px;
+    width: 100vw;
 }
 
 .panel-all {
@@ -182,10 +200,17 @@
 }
 
 /**main**/
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100vw;
+}
 
 .hero-section {
     background-image: url("hero-bg.jpg");
     background-size: cover;
+    width: 100vw;
     height: 360px;
 }
 
